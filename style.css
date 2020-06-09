@@ -1,0 +1,109 @@
+body {
+  background: linear-gradient(to left, #33ccff 0%, #ff99cc 100%);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn {
+  background-color: red;
+  border: none;
+  color: red;
+  text-align: center;
+  text-decoration: steelblue;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Mr Dafoe", cursive;
+  line-height: 2.8em;
+  font-stretch: ultra-expanded;
+  font-size: 4rem;
+  color: #41ad99;
+  font-variant: initial;
+  margin-inline-start: 0rem;
+}
+
+.hotel {
+  /* height: ; */
+  display: flex;
+  flex-grow: initial;
+  border: 1px solid white;
+  flex-direction: column;
+  margin: 15px;
+  width: 30%;
+  flex-wrap: wrap;
+  font-size: 2rem;
+  color:green;
+  
+}
+
+.ul {
+  list-style: none;
+}
+
+#hotel-header {
+  color: #41ad99;
+}
+
+.hotel-1 h3 {
+  color: #41ad99;
+}
+
+.submit-btn {
+  width: 6rem;
+  height: 2rem;
+  background-color: rgb(13, 211, 211);
+  border-radius: 1rem;
+  font-size: 0.7rem;
+}
+
+.visit-orlando-btn {
+  width: 8rem;
+  height: 2rem;
+  background-color: rgb(13, 211, 211);
+  border-radius: 1rem; 
+}
+
+.visit-miami-btn {
+  width: 8rem;
+  height: 2rem;
+  background-color: rgb(13, 211, 211);
+  border-radius: 1rem;
+}
+
+@media all and (max-width: 600px) {
+  .container {
+    flex-wrap: wrap;
+  }
+}
+
+
+.search {
+  flex: 1;
+}
+
+.search > input {
+  text-align: left;
+}
+.container {
+  border: 5px solid;
+  display: flex;
+  font-family: sans-serif;
+  justify-content: right;
+  justify-content: space-evenly;
+  font-size: 2rem;
+  color:green;
+}
+
+
+.nav {
+  justify-content: space-evenly;
+  
+}
+
+
+@media screen and (max-width: 768px) {
+  #primary { width:100%; }
+  #secondary { width:100%; margin:0; border:none; }
+}
